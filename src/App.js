@@ -48,14 +48,17 @@ class App extends Component {
     return (
       <Router>
         <Layout>
-          <Header className="header" style={{ backgroundColor: "#898785", height: "120px" }}>
+          <Header className="header" style={{ backgroundColor: "#D6EAF8", height: "120px" }}>
             <div className="headertext">
-              <label><PieChartOutlined style={{ color: "#FFA32F", fontSize: "40px", marginRight: "10px" }} /><h2 style={{ color: "#FFA32F" }}>Numerical Method</h2></label>
+              <label>
+                <PieChartOutlined style={{ color: "#1A5276", fontSize: "40px", marginRight: "10px" }} />
+                <h2 style={{ color: "#1A5276" }}>Numerical Method</h2>
+              </label>
             </div>
           </Header>
           <Layout>
-            <Header className="header" style={{ backgroundColor: "#e89a3c", color: "#e89a3c" }}>
-              <Menu theme="light" mode="horizontal" style={{ color: "#e89a3c" }} >
+            <Header className="header" style={{ backgroundColor: "#1A5276", color: "#1A5276" }}>
+              <Menu theme="light" mode="horizontal" style={{ color: "#1A5276" }} >
                 <SubMenu key="root_submenu" title={<span>Root of Equation</span>}>
                   <Menu.Item key="menu_graphoical" ><Link to="/graphical">Graphical</Link></Menu.Item>
                   <Menu.Item key="menu_bisection" ><Link to="/bisection">Bisection</Link></Menu.Item>
@@ -151,11 +154,11 @@ class App extends Component {
               </Content>
             </Layout>
           </Layout>
-          <Footer style={{ backgroundColor: "#FF8438", minHeight: 120 }}>
+          <Footer style={{ backgroundColor: "#F7FAF9", minHeight: 120 }}>
             <p style={{ fontSize: "20px", fontWeight: "bold", color: "white" }}>
               © All Right Reserved<br />
 
-              <p style={{ fontSize: "22px", verticalAlign: "text-bottom" }}><BookFilled style={{ fontSize: "30px" }} /><a target="_blank" rel="noopener noreferrer" href="http://cs.kmutnb.ac.th/" style={{ color: "white", textDecoration: "none" }}> Department of Computer and Information Science - King Mongkut's University of Technology North Bangkok</a></p>
+              <p style={{ fontSize: "22px", verticalAlign: "text-bottom" }}><BookFilled style={{ fontSize: "30px" }} /><a target="_blank" rel="noopener noreferrer" href="http://cs.kmutnb.ac.th/" style={{ color: "#1A5276", textDecoration: "none" }}> Department of Computer and Information Science - King Mongkut's University of Technology North Bangkok</a></p>
               <p >Made by Boontida Bhubhasook</p>
             </p>
           </Footer>
