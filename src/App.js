@@ -154,8 +154,8 @@ class App extends Component {
               </Content>
             </Layout>
           </Layout>
-          <Footer style={{ backgroundColor: "#F7FAF9", minHeight: 120 }}>
-            <p style={{ fontSize: "20px", fontWeight: "bold", color: "white" }}>
+          <Footer style={{ backgroundColor: "#EBF7FF", minHeight: 120 }}>
+            <p style={{ fontSize: "20px", fontWeight: "bold", color: "#1A5276" }}>
               © All Right Reserved<br />
 
               <p style={{ fontSize: "22px", verticalAlign: "text-bottom" }}><BookFilled style={{ fontSize: "30px" }} /><a target="_blank" rel="noopener noreferrer" href="http://cs.kmutnb.ac.th/" style={{ color: "#1A5276", textDecoration: "none" }}> Department of Computer and Information Science - King Mongkut's University of Technology North Bangkok</a></p>
