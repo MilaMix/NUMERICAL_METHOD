@@ -8,5 +8,7 @@ make i
 # build image 
 make deploy
 
+docker run -it "image"
+
 # run project
 make dev
